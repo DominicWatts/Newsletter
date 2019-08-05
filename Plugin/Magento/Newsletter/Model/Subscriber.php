@@ -46,5 +46,4 @@ class Subscriber
         }
         return $result;
     }
-
 }
