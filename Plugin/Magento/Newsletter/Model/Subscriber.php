@@ -2,6 +2,8 @@
 
 namespace Xigen\Newsletter\Plugin\Magento\Newsletter\Model;
 
+use Magento\Framework\Exception\LocalizedException;
+
 /**
  * Class Subscriber
  * @package Xigen\Newsletter\Plugin\Magento\Newsletter\Model
@@ -41,7 +43,7 @@ class Subscriber
             try {
                 $subject->save();
             } catch (\Exception $e) {
-                throw new \Exception($e->getMessage());
+                throw new LocalizedException($e->getMessage());
             }
         }
         return $result;
