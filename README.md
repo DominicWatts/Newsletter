@@ -1,4 +1,4 @@
-# Magento 2 Symfony VarDumper # 
+# Magento 2 Newsletter Field # 
 
 Additional field in newsletter footer signup 
 
