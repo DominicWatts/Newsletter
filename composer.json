@@ -3,11 +3,11 @@
     "description": "Additional field in newsletter footer signup",
     "type": "magento2-module",
     "license": "proprietary",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
         {
-            "name": "Dominic Xigen",
-            "email": "dominic@xigen.co.uk"
+            "name": "Dominic PixieMedia",
+            "email": "dominic@pixie.agency"
         }
     ],
     "minimum-stability": "dev",
@@ -18,14 +18,15 @@
         }
     ],
     "require": {
-        "magento/framework": "*"
+        "magento/framework": "*",
+        "magento/module-newsletter": "*"
     },
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "Xigen\\Newsletter\\": ""
+            "PixieMedia\\Newsletter\\": ""
         }
     }
 }

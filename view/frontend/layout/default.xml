@@ -4,7 +4,7 @@
         <referenceContainer name="footer">
             <referenceBlock name="form.subscribe">
                 <action method="setTemplate">
-                    <argument name="template" xsi:type="string">Xigen_Newsletter::subscribe.phtml</argument>
+                    <argument name="template" xsi:type="string">PixieMedia_Newsletter::subscribe.phtml</argument>
                 </action>
             </referenceBlock>
         </referenceContainer>
