@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <type name="Magento\Newsletter\Model\Subscriber">
-        <plugin disabled="false" name="PixieMedia_Newsletter_Plugin_Magento_Newsletter_Model_Subscriber" sortOrder="10" type="PixieMedia\Newsletter\Plugin\Magento\Newsletter\Model\Subscriber"/>
-    </type>
+	<type name="Magento\Newsletter\Model\Subscriber">
+		<plugin name="PixieMedia_Newsletter_Plugin_Frontend_Magento_Newsletter_Model_Subscriber" type="PixieMedia\Newsletter\Plugin\Frontend\Magento\Newsletter\Model\Subscriber" sortOrder="10" disabled="false"/>
+	</type>
 </config>

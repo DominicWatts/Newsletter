@@ -1,6 +1,6 @@
 <?php
 
-namespace PixieMedia\Newsletter\Plugin\Magento\Newsletter\Model;
+namespace PixieMedia\Newsletter\Plugin\Frontend\Magento\Newsletter\Model;
 
 use Magento\Framework\Exception\LocalizedException;
 
@@ -31,8 +31,11 @@ class Subscriber
      * @return mixed
      * @throws \Exception
      */
-    public function aroundSubscribe($subject, \Closure $proceed, $email)
-    {
+    public function aroundSubscribe(
+        \Magento\Newsletter\Model\Subscriber $subject,
+        \Closure $proceed,
+        $email
+    ) {
         if ($this->request->isPost() && $this->request->getPostValue('name')) {
             $name = $this->request->getPostValue('name');
             if ($name) {
