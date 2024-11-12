@@ -1,12 +1,11 @@
 <?php
 
-namespace Xigen\Newsletter\Plugin\Magento\Newsletter\Model;
+namespace PixieMedia\Newsletter\Plugin\Magento\Newsletter\Model;
 
 use Magento\Framework\Exception\LocalizedException;
 
 /**
  * Class Subscriber
- * @package Xigen\Newsletter\Plugin\Magento\Newsletter\Model
  */
 class Subscriber
 {

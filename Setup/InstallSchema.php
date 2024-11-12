@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Xigen\Newsletter\Setup;
+namespace PixieMedia\Newsletter\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
