@@ -1,6 +1,5 @@
 <?php
 
-
 namespace PixieMedia\Newsletter\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
